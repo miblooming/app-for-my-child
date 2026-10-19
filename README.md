@@ -7,6 +7,15 @@
 | [倒计时APP](倒计时APP/README.md) | 练一刻 | 通过逐秒中文报数和倒计时，练习计时、感受时长，也可用于运动训练 |
 | [儿童学字APP](儿童学字APP/README.md) | 字芽识字 | 练习认字、听读字词，记录每轮认识的汉字与累计次数 |
 
+## 下载安装
+
+已编译的 Android 安装包发布在 GitHub Releases：
+
+- [练一刻 v1.1.0 · 倒计时 APP](https://github.com/miblooming/app-for-my-child/releases/tag/countdown-v1.1.0)
+- [字芽识字 v1.3.1 · 儿童学字 APP](https://github.com/miblooming/app-for-my-child/releases/tag/ziya-v1.3.1)
+
+在对应发布页的 Assets 中下载 `.apk`，复制到 Android 手机上打开安装。每个版本附有 SHA-256 校验文件。最低支持 Android 6.0；更新识字 APP 前建议先导出学习记录备份。
+
 ## 项目结构
 
 ```text

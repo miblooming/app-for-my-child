@@ -4,6 +4,8 @@
 
 当前版本：1.1.0。原生 Java Android 应用，最低支持 Android 6.0（API 23），竖屏、完全离线。
 
+安装包下载：[GitHub Release · 练一刻 v1.1.0](https://github.com/miblooming/app-for-my-child/releases/tag/countdown-v1.1.0)。在 Assets 中下载 `LianYiKe-v1.1.0.apk`，手机打开安装；同页提供 SHA-256 校验文件。
+
 ## 使用方法
 
 1. 选择 30、60、100、200 或 300 秒。

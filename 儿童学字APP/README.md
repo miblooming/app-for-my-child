@@ -4,6 +4,8 @@
 
 当前版本：1.3.1。Android WebView 宿主加本地 HTML / CSS / JavaScript，最低支持 Android 6.0（API 23），建议使用较新的 Android System WebView。完全离线，无需注册和网络权限。
 
+安装包下载：[GitHub Release · 字芽识字 v1.3.1](https://github.com/miblooming/app-for-my-child/releases/tag/ziya-v1.3.1)。在 Assets 中下载 `ZiyaKids-v1.3.1.apk`，手机打开安装；同页提供 SHA-256 校验文件。更新前建议先导出识字记录备份。
+
 ## 主要功能
 
 - **识字测试**：轻点汉字标记本轮认识，再点撤销；同字同轮只累计一次。支持新一轮、重置本轮、认识 / 待认识筛选和汉字 / 拼音搜索。
