@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f8f7f2"><title>字芽 · 儿童识字</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header"><div class="header-inner">
+    <a class="brand" href="#test" aria-label="字芽首页"><span class="brand-mark" id="brand-mark"></span><span>字芽<small>让每个字，慢慢发芽</small></span></a>
+    <button class="icon-button" id="settings-button" aria-label="记录与设置"></button>
+  </div></header>
+  <main id="main"></main>
+  <nav class="bottom-nav" aria-label="主要功能" id="navigation"></nav>
+  <div class="toast" role="status" aria-live="polite" id="toast"></div>
+  <div class="modal-backdrop" id="modal" hidden><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1"></section></div>
+  <script src="characters.js"></script><script src="model.js"></script><script src="licenses.js"></script><script src="audio-player.js"></script><script src="app.js"></script>
+</body>
+</html>

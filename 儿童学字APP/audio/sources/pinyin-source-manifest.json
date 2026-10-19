@@ -1,0 +1,287 @@
+{
+  "repository": "https://github.com/cmguo/PinYinSound",
+  "recordings": [
+    {
+      "id": "i_b",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/b.mp3",
+      "bytes": 8229,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_p",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/p.mp3",
+      "bytes": 6766,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_m",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/m.mp3",
+      "bytes": 7680,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_f",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/f.mp3",
+      "bytes": 8229,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_d",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/d.mp3",
+      "bytes": 7497,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_t",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/t.mp3",
+      "bytes": 7314,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_n",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/n.mp3",
+      "bytes": 7314,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_l",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/l.mp3",
+      "bytes": 6766,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_g",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/g.mp3",
+      "bytes": 6766,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_k",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/k.mp3",
+      "bytes": 7497,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_h",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/h.mp3",
+      "bytes": 8046,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_j",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/j.mp3",
+      "bytes": 7497,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_q",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/q.mp3",
+      "bytes": 7497,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_x",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/x.mp3",
+      "bytes": 8229,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_zh",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/zh.mp3",
+      "bytes": 7314,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_ch",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/ch.mp3",
+      "bytes": 6583,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_sh",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/sh.mp3",
+      "bytes": 7314,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_r",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/r.mp3",
+      "bytes": 6949,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_z",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/z.mp3",
+      "bytes": 7680,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_c",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/c.mp3",
+      "bytes": 8229,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_s",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/s.mp3",
+      "bytes": 7314,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_y",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/y.mp3",
+      "bytes": 7680,
+      "syntheticVoice": null
+    },
+    {
+      "id": "i_w",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/w.mp3",
+      "bytes": 6217,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_a",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/a.mp3",
+      "bytes": 24913,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_o",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/o.mp3",
+      "bytes": 8777,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_e",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/e.mp3",
+      "bytes": 7680,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_i",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/i.mp3",
+      "bytes": 8411,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_u",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/u.mp3",
+      "bytes": 8046,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_v",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/v.mp3",
+      "bytes": 21151,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_ai",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/ai.mp3",
+      "bytes": 6034,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_ei",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/ei.mp3",
+      "bytes": 7131,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_ui",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/ui.mp3",
+      "bytes": 6583,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_ao",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/ao.mp3",
+      "bytes": 6583,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_ou",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/ou.mp3",
+      "bytes": 6400,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_iu",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/iu.mp3",
+      "bytes": 7497,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_ie",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/ie.mp3",
+      "bytes": 7314,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_ve",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/ve.mp3",
+      "bytes": 22405,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_er",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/er.mp3",
+      "bytes": 6400,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_an",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/an.mp3",
+      "bytes": 6217,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_en",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/en.mp3",
+      "bytes": 5486,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_in",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/in.mp3",
+      "bytes": 6766,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_un",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/un.mp3",
+      "bytes": 6034,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_vn",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/vn.mp3",
+      "bytes": 23032,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_ang",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/ang.mp3",
+      "bytes": 5669,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_eng",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/eng.mp3",
+      "bytes": 6583,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_ing",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/ing.mp3",
+      "bytes": 8046,
+      "syntheticVoice": null
+    },
+    {
+      "id": "f_ong",
+      "url": "https://raw.githubusercontent.com/cmguo/PinYinSound/master/ong.mp3",
+      "bytes": 6217,
+      "syntheticVoice": null
+    }
+  ]
+}

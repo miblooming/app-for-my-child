@@ -1,0 +1,18 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'cn.fitcount.app'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'cn.fitcount.app'
+        minSdk 23
+        targetSdk 35
+        versionCode 2
+        versionName '1.1.0'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    androidResources { noCompress += ['wav'] }
+}

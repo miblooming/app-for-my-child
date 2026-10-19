@@ -1,0 +1,48 @@
+# Build outputs and packaged apps
+**/build/
+**/.gradle/
+**/交付文件/
+*.apk
+*.aab
+*.apks
+*.dex
+*.class
+*.jar
+*.zip
+
+# Private signing material and machine configuration
+**/signing/
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+local.properties
+.env
+.env.*
+!.env.example
+
+# IDE, dependencies, models and caches
+.idea/
+*.iml
+.vscode/
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+**/tools/vendor/
+**/tools/ocr-vendor/
+**/tools/ai-model/
+**/tools/asr-model/
+*.safetensors
+*.onnx
+*.log
+Thumbs.db
+.DS_Store
+
+# Speech-generation intermediates; the bundled app audio remains tracked
+**/audio/readings/
+**/audio/phonetic-source/
+**/data/upstream/

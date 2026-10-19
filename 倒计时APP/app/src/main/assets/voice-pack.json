@@ -1,0 +1,1834 @@
+{
+  "format": 2,
+  "model": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+  "revision": "0c0e3051f131929182e2c023b9537f8b1c68adfe",
+  "speaker": "Dylan",
+  "syntheticVoice": true,
+  "sampleRate": 24000,
+  "readySlotMs": 2200,
+  "goSlotMs": 1500,
+  "successAudioMs": 2790,
+  "readyText": "准备好，跟上节奏！预备！",
+  "goText": "开始！动起来！",
+  "successText": "挑战成功！漂亮，这一组拿下了！",
+  "clips": [
+    {
+      "file": "go.wav",
+      "seconds": 1.3725,
+      "nativeSeconds": 1.3725,
+      "tempo": 1.0
+    },
+    {
+      "file": "n001.wav",
+      "seconds": 0.3386,
+      "nativeSeconds": 0.3386,
+      "tempo": 1.0
+    },
+    {
+      "file": "n002.wav",
+      "seconds": 0.2463,
+      "nativeSeconds": 0.2463,
+      "tempo": 1.0
+    },
+    {
+      "file": "n003.wav",
+      "seconds": 0.3882,
+      "nativeSeconds": 0.3882,
+      "tempo": 1.0
+    },
+    {
+      "file": "n004.wav",
+      "seconds": 0.3315,
+      "nativeSeconds": 0.3315,
+      "tempo": 1.0
+    },
+    {
+      "file": "n005.wav",
+      "seconds": 0.4181,
+      "nativeSeconds": 0.4181,
+      "tempo": 1.0
+    },
+    {
+      "file": "n006.wav",
+      "seconds": 0.4149,
+      "nativeSeconds": 0.4149,
+      "tempo": 1.0
+    },
+    {
+      "file": "n007.wav",
+      "seconds": 0.5035,
+      "nativeSeconds": 0.5035,
+      "tempo": 1.0
+    },
+    {
+      "file": "n008.wav",
+      "seconds": 0.2856,
+      "nativeSeconds": 0.2856,
+      "tempo": 1.0
+    },
+    {
+      "file": "n009.wav",
+      "seconds": 0.4708,
+      "nativeSeconds": 0.4708,
+      "tempo": 1.0
+    },
+    {
+      "file": "n010.wav",
+      "seconds": 0.4913,
+      "nativeSeconds": 0.4913,
+      "tempo": 1.0
+    },
+    {
+      "file": "n011.wav",
+      "seconds": 0.5491,
+      "nativeSeconds": 0.5491,
+      "tempo": 1.0
+    },
+    {
+      "file": "n012.wav",
+      "seconds": 0.4672,
+      "nativeSeconds": 0.4672,
+      "tempo": 1.0
+    },
+    {
+      "file": "n013.wav",
+      "seconds": 0.4987,
+      "nativeSeconds": 0.4987,
+      "tempo": 1.0
+    },
+    {
+      "file": "n014.wav",
+      "seconds": 0.7242,
+      "nativeSeconds": 0.7242,
+      "tempo": 1.0
+    },
+    {
+      "file": "n015.wav",
+      "seconds": 0.5787,
+      "nativeSeconds": 0.5787,
+      "tempo": 1.0
+    },
+    {
+      "file": "n016.wav",
+      "seconds": 0.547,
+      "nativeSeconds": 0.547,
+      "tempo": 1.0
+    },
+    {
+      "file": "n017.wav",
+      "seconds": 0.5697,
+      "nativeSeconds": 0.5697,
+      "tempo": 1.0
+    },
+    {
+      "file": "n018.wav",
+      "seconds": 0.8187,
+      "nativeSeconds": 0.8187,
+      "tempo": 1.0
+    },
+    {
+      "file": "n019.wav",
+      "seconds": 0.6221,
+      "nativeSeconds": 0.6221,
+      "tempo": 1.0
+    },
+    {
+      "file": "n020.wav",
+      "seconds": 0.7335,
+      "nativeSeconds": 0.7335,
+      "tempo": 1.0
+    },
+    {
+      "file": "n021.wav",
+      "seconds": 0.922,
+      "nativeSeconds": 0.967,
+      "tempo": 1.0511
+    },
+    {
+      "file": "n022.wav",
+      "seconds": 0.6486,
+      "nativeSeconds": 0.6486,
+      "tempo": 1.0
+    },
+    {
+      "file": "n023.wav",
+      "seconds": 0.8805,
+      "nativeSeconds": 0.8805,
+      "tempo": 1.0
+    },
+    {
+      "file": "n024.wav",
+      "seconds": 0.8685,
+      "nativeSeconds": 0.8685,
+      "tempo": 1.0
+    },
+    {
+      "file": "n025.wav",
+      "seconds": 0.7309,
+      "nativeSeconds": 0.7309,
+      "tempo": 1.0
+    },
+    {
+      "file": "n026.wav",
+      "seconds": 0.8873,
+      "nativeSeconds": 0.8873,
+      "tempo": 1.0
+    },
+    {
+      "file": "n027.wav",
+      "seconds": 0.7156,
+      "nativeSeconds": 0.7156,
+      "tempo": 1.0
+    },
+    {
+      "file": "n028.wav",
+      "seconds": 0.7082,
+      "nativeSeconds": 0.7082,
+      "tempo": 1.0
+    },
+    {
+      "file": "n029.wav",
+      "seconds": 0.7384,
+      "nativeSeconds": 0.7384,
+      "tempo": 1.0
+    },
+    {
+      "file": "n030.wav",
+      "seconds": 0.7388,
+      "nativeSeconds": 0.7388,
+      "tempo": 1.0
+    },
+    {
+      "file": "n031.wav",
+      "seconds": 0.8187,
+      "nativeSeconds": 0.8187,
+      "tempo": 1.0
+    },
+    {
+      "file": "n032.wav",
+      "seconds": 0.5749,
+      "nativeSeconds": 0.5749,
+      "tempo": 1.0
+    },
+    {
+      "file": "n033.wav",
+      "seconds": 0.7331,
+      "nativeSeconds": 0.7331,
+      "tempo": 1.0
+    },
+    {
+      "file": "n034.wav",
+      "seconds": 0.7385,
+      "nativeSeconds": 0.7385,
+      "tempo": 1.0
+    },
+    {
+      "file": "n035.wav",
+      "seconds": 0.8186,
+      "nativeSeconds": 0.8186,
+      "tempo": 1.0
+    },
+    {
+      "file": "n036.wav",
+      "seconds": 0.5548,
+      "nativeSeconds": 0.5548,
+      "tempo": 1.0
+    },
+    {
+      "file": "n037.wav",
+      "seconds": 0.7387,
+      "nativeSeconds": 0.7387,
+      "tempo": 1.0
+    },
+    {
+      "file": "n038.wav",
+      "seconds": 0.4985,
+      "nativeSeconds": 0.4985,
+      "tempo": 1.0
+    },
+    {
+      "file": "n039.wav",
+      "seconds": 0.6588,
+      "nativeSeconds": 0.6588,
+      "tempo": 1.0
+    },
+    {
+      "file": "n040.wav",
+      "seconds": 0.6426,
+      "nativeSeconds": 0.6426,
+      "tempo": 1.0
+    },
+    {
+      "file": "n041.wav",
+      "seconds": 0.9247,
+      "nativeSeconds": 0.9578,
+      "tempo": 1.0411
+    },
+    {
+      "file": "n042.wav",
+      "seconds": 0.6358,
+      "nativeSeconds": 0.6358,
+      "tempo": 1.0
+    },
+    {
+      "file": "n043.wav",
+      "seconds": 0.6392,
+      "nativeSeconds": 0.6392,
+      "tempo": 1.0
+    },
+    {
+      "file": "n044.wav",
+      "seconds": 0.5785,
+      "nativeSeconds": 0.5785,
+      "tempo": 1.0
+    },
+    {
+      "file": "n045.wav",
+      "seconds": 0.8185,
+      "nativeSeconds": 0.8185,
+      "tempo": 1.0
+    },
+    {
+      "file": "n046.wav",
+      "seconds": 0.542,
+      "nativeSeconds": 0.542,
+      "tempo": 1.0
+    },
+    {
+      "file": "n047.wav",
+      "seconds": 0.7192,
+      "nativeSeconds": 0.7192,
+      "tempo": 1.0
+    },
+    {
+      "file": "n048.wav",
+      "seconds": 0.5344,
+      "nativeSeconds": 0.5344,
+      "tempo": 1.0
+    },
+    {
+      "file": "n049.wav",
+      "seconds": 0.7262,
+      "nativeSeconds": 0.7262,
+      "tempo": 1.0
+    },
+    {
+      "file": "n050.wav",
+      "seconds": 0.5775,
+      "nativeSeconds": 0.5775,
+      "tempo": 1.0
+    },
+    {
+      "file": "n051.wav",
+      "seconds": 0.6999,
+      "nativeSeconds": 0.6999,
+      "tempo": 1.0
+    },
+    {
+      "file": "n052.wav",
+      "seconds": 0.5776,
+      "nativeSeconds": 0.5776,
+      "tempo": 1.0
+    },
+    {
+      "file": "n053.wav",
+      "seconds": 0.5774,
+      "nativeSeconds": 0.5774,
+      "tempo": 1.0
+    },
+    {
+      "file": "n054.wav",
+      "seconds": 0.5648,
+      "nativeSeconds": 0.5648,
+      "tempo": 1.0
+    },
+    {
+      "file": "n055.wav",
+      "seconds": 0.7883,
+      "nativeSeconds": 0.7883,
+      "tempo": 1.0
+    },
+    {
+      "file": "n056.wav",
+      "seconds": 0.7177,
+      "nativeSeconds": 0.7177,
+      "tempo": 1.0
+    },
+    {
+      "file": "n057.wav",
+      "seconds": 0.5643,
+      "nativeSeconds": 0.5643,
+      "tempo": 1.0
+    },
+    {
+      "file": "n058.wav",
+      "seconds": 0.565,
+      "nativeSeconds": 0.565,
+      "tempo": 1.0
+    },
+    {
+      "file": "n059.wav",
+      "seconds": 0.7355,
+      "nativeSeconds": 0.7355,
+      "tempo": 1.0
+    },
+    {
+      "file": "n060.wav",
+      "seconds": 0.703,
+      "nativeSeconds": 0.703,
+      "tempo": 1.0
+    },
+    {
+      "file": "n061.wav",
+      "seconds": 0.7369,
+      "nativeSeconds": 0.7369,
+      "tempo": 1.0
+    },
+    {
+      "file": "n062.wav",
+      "seconds": 0.5677,
+      "nativeSeconds": 0.5677,
+      "tempo": 1.0
+    },
+    {
+      "file": "n063.wav",
+      "seconds": 0.645,
+      "nativeSeconds": 0.645,
+      "tempo": 1.0
+    },
+    {
+      "file": "n064.wav",
+      "seconds": 0.4824,
+      "nativeSeconds": 0.4824,
+      "tempo": 1.0
+    },
+    {
+      "file": "n065.wav",
+      "seconds": 0.7352,
+      "nativeSeconds": 0.7352,
+      "tempo": 1.0
+    },
+    {
+      "file": "n066.wav",
+      "seconds": 0.4906,
+      "nativeSeconds": 0.4906,
+      "tempo": 1.0
+    },
+    {
+      "file": "n067.wav",
+      "seconds": 0.6502,
+      "nativeSeconds": 0.6502,
+      "tempo": 1.0
+    },
+    {
+      "file": "n068.wav",
+      "seconds": 0.7822,
+      "nativeSeconds": 0.7822,
+      "tempo": 1.0
+    },
+    {
+      "file": "n069.wav",
+      "seconds": 0.7872,
+      "nativeSeconds": 0.7872,
+      "tempo": 1.0
+    },
+    {
+      "file": "n070.wav",
+      "seconds": 0.7387,
+      "nativeSeconds": 0.7387,
+      "tempo": 1.0
+    },
+    {
+      "file": "n071.wav",
+      "seconds": 0.7259,
+      "nativeSeconds": 0.7259,
+      "tempo": 1.0
+    },
+    {
+      "file": "n072.wav",
+      "seconds": 0.561,
+      "nativeSeconds": 0.561,
+      "tempo": 1.0
+    },
+    {
+      "file": "n073.wav",
+      "seconds": 0.6364,
+      "nativeSeconds": 0.6364,
+      "tempo": 1.0
+    },
+    {
+      "file": "n074.wav",
+      "seconds": 0.6582,
+      "nativeSeconds": 0.6582,
+      "tempo": 1.0
+    },
+    {
+      "file": "n075.wav",
+      "seconds": 0.7328,
+      "nativeSeconds": 0.7328,
+      "tempo": 1.0
+    },
+    {
+      "file": "n076.wav",
+      "seconds": 0.6414,
+      "nativeSeconds": 0.6414,
+      "tempo": 1.0
+    },
+    {
+      "file": "n077.wav",
+      "seconds": 0.6589,
+      "nativeSeconds": 0.6589,
+      "tempo": 1.0
+    },
+    {
+      "file": "n078.wav",
+      "seconds": 0.5611,
+      "nativeSeconds": 0.5611,
+      "tempo": 1.0
+    },
+    {
+      "file": "n079.wav",
+      "seconds": 0.7314,
+      "nativeSeconds": 0.7314,
+      "tempo": 1.0
+    },
+    {
+      "file": "n080.wav",
+      "seconds": 0.5785,
+      "nativeSeconds": 0.5785,
+      "tempo": 1.0
+    },
+    {
+      "file": "n081.wav",
+      "seconds": 0.7335,
+      "nativeSeconds": 0.7335,
+      "tempo": 1.0
+    },
+    {
+      "file": "n082.wav",
+      "seconds": 0.5434,
+      "nativeSeconds": 0.5434,
+      "tempo": 1.0
+    },
+    {
+      "file": "n083.wav",
+      "seconds": 0.5644,
+      "nativeSeconds": 0.5644,
+      "tempo": 1.0
+    },
+    {
+      "file": "n084.wav",
+      "seconds": 0.8046,
+      "nativeSeconds": 0.8046,
+      "tempo": 1.0
+    },
+    {
+      "file": "n085.wav",
+      "seconds": 0.6351,
+      "nativeSeconds": 0.6351,
+      "tempo": 1.0
+    },
+    {
+      "file": "n086.wav",
+      "seconds": 0.5691,
+      "nativeSeconds": 0.5691,
+      "tempo": 1.0
+    },
+    {
+      "file": "n087.wav",
+      "seconds": 0.6899,
+      "nativeSeconds": 0.6899,
+      "tempo": 1.0
+    },
+    {
+      "file": "n088.wav",
+      "seconds": 0.7917,
+      "nativeSeconds": 0.7917,
+      "tempo": 1.0
+    },
+    {
+      "file": "n089.wav",
+      "seconds": 0.6478,
+      "nativeSeconds": 0.6478,
+      "tempo": 1.0
+    },
+    {
+      "file": "n090.wav",
+      "seconds": 0.396,
+      "nativeSeconds": 0.396,
+      "tempo": 1.0
+    },
+    {
+      "file": "n091.wav",
+      "seconds": 0.5789,
+      "nativeSeconds": 0.5789,
+      "tempo": 1.0
+    },
+    {
+      "file": "n092.wav",
+      "seconds": 0.5785,
+      "nativeSeconds": 0.5785,
+      "tempo": 1.0
+    },
+    {
+      "file": "n093.wav",
+      "seconds": 0.8185,
+      "nativeSeconds": 0.8185,
+      "tempo": 1.0
+    },
+    {
+      "file": "n094.wav",
+      "seconds": 0.8015,
+      "nativeSeconds": 0.8015,
+      "tempo": 1.0
+    },
+    {
+      "file": "n095.wav",
+      "seconds": 0.8657,
+      "nativeSeconds": 0.8657,
+      "tempo": 1.0
+    },
+    {
+      "file": "n096.wav",
+      "seconds": 0.7268,
+      "nativeSeconds": 0.7268,
+      "tempo": 1.0
+    },
+    {
+      "file": "n097.wav",
+      "seconds": 0.6288,
+      "nativeSeconds": 0.6288,
+      "tempo": 1.0
+    },
+    {
+      "file": "n098.wav",
+      "seconds": 0.6173,
+      "nativeSeconds": 0.6173,
+      "tempo": 1.0
+    },
+    {
+      "file": "n099.wav",
+      "seconds": 0.8171,
+      "nativeSeconds": 0.8171,
+      "tempo": 1.0
+    },
+    {
+      "file": "n100.wav",
+      "seconds": 0.4975,
+      "nativeSeconds": 0.4975,
+      "tempo": 1.0
+    },
+    {
+      "file": "n101.wav",
+      "seconds": 0.8418,
+      "nativeSeconds": 0.8418,
+      "tempo": 1.0
+    },
+    {
+      "file": "n102.wav",
+      "seconds": 0.656,
+      "nativeSeconds": 0.656,
+      "tempo": 1.0
+    },
+    {
+      "file": "n103.wav",
+      "seconds": 0.787,
+      "nativeSeconds": 0.787,
+      "tempo": 1.0
+    },
+    {
+      "file": "n104.wav",
+      "seconds": 0.817,
+      "nativeSeconds": 0.817,
+      "tempo": 1.0
+    },
+    {
+      "file": "n105.wav",
+      "seconds": 0.9222,
+      "nativeSeconds": 0.9467,
+      "tempo": 1.029
+    },
+    {
+      "file": "n106.wav",
+      "seconds": 0.898,
+      "nativeSeconds": 0.898,
+      "tempo": 1.0
+    },
+    {
+      "file": "n107.wav",
+      "seconds": 0.8183,
+      "nativeSeconds": 0.8183,
+      "tempo": 1.0
+    },
+    {
+      "file": "n108.wav",
+      "seconds": 0.8057,
+      "nativeSeconds": 0.8057,
+      "tempo": 1.0
+    },
+    {
+      "file": "n109.wav",
+      "seconds": 0.8655,
+      "nativeSeconds": 0.8655,
+      "tempo": 1.0
+    },
+    {
+      "file": "n110.wav",
+      "seconds": 0.9182,
+      "nativeSeconds": 0.9511,
+      "tempo": 1.0338
+    },
+    {
+      "file": "n111.wav",
+      "seconds": 0.9088,
+      "nativeSeconds": 1.0569,
+      "tempo": 1.1488
+    },
+    {
+      "file": "n112.wav",
+      "seconds": 0.9152,
+      "nativeSeconds": 1.0357,
+      "tempo": 1.1258
+    },
+    {
+      "file": "n113.wav",
+      "seconds": 0.8185,
+      "nativeSeconds": 0.8185,
+      "tempo": 1.0
+    },
+    {
+      "file": "n114.wav",
+      "seconds": 0.8012,
+      "nativeSeconds": 0.8012,
+      "tempo": 1.0
+    },
+    {
+      "file": "n115.wav",
+      "seconds": 0.8979,
+      "nativeSeconds": 0.8979,
+      "tempo": 1.0
+    },
+    {
+      "file": "n116.wav",
+      "seconds": 0.8755,
+      "nativeSeconds": 0.8755,
+      "tempo": 1.0
+    },
+    {
+      "file": "n117.wav",
+      "seconds": 0.9176,
+      "nativeSeconds": 0.9313,
+      "tempo": 1.0123
+    },
+    {
+      "file": "n118.wav",
+      "seconds": 0.8187,
+      "nativeSeconds": 0.8187,
+      "tempo": 1.0
+    },
+    {
+      "file": "n119.wav",
+      "seconds": 0.9103,
+      "nativeSeconds": 0.9785,
+      "tempo": 1.0636
+    },
+    {
+      "file": "n120.wav",
+      "seconds": 0.9239,
+      "nativeSeconds": 1.2938,
+      "tempo": 1.4063
+    },
+    {
+      "file": "n121.wav",
+      "seconds": 0.8876,
+      "nativeSeconds": 0.8876,
+      "tempo": 1.0
+    },
+    {
+      "file": "n122.wav",
+      "seconds": 0.7245,
+      "nativeSeconds": 0.7245,
+      "tempo": 1.0
+    },
+    {
+      "file": "n123.wav",
+      "seconds": 0.8032,
+      "nativeSeconds": 0.8032,
+      "tempo": 1.0
+    },
+    {
+      "file": "n124.wav",
+      "seconds": 0.8171,
+      "nativeSeconds": 0.8171,
+      "tempo": 1.0
+    },
+    {
+      "file": "n125.wav",
+      "seconds": 0.9167,
+      "nativeSeconds": 1.0032,
+      "tempo": 1.0905
+    },
+    {
+      "file": "n126.wav",
+      "seconds": 0.9003,
+      "nativeSeconds": 0.9716,
+      "tempo": 1.0561
+    },
+    {
+      "file": "n127.wav",
+      "seconds": 0.7745,
+      "nativeSeconds": 0.7745,
+      "tempo": 1.0
+    },
+    {
+      "file": "n128.wav",
+      "seconds": 0.888,
+      "nativeSeconds": 0.888,
+      "tempo": 1.0
+    },
+    {
+      "file": "n129.wav",
+      "seconds": 0.9131,
+      "nativeSeconds": 1.1992,
+      "tempo": 1.3035
+    },
+    {
+      "file": "n130.wav",
+      "seconds": 0.8883,
+      "nativeSeconds": 0.8883,
+      "tempo": 1.0
+    },
+    {
+      "file": "n131.wav",
+      "seconds": 0.9281,
+      "nativeSeconds": 1.1892,
+      "tempo": 1.2926
+    },
+    {
+      "file": "n132.wav",
+      "seconds": 0.8513,
+      "nativeSeconds": 0.8513,
+      "tempo": 1.0
+    },
+    {
+      "file": "n133.wav",
+      "seconds": 0.9175,
+      "nativeSeconds": 0.9663,
+      "tempo": 1.0503
+    },
+    {
+      "file": "n134.wav",
+      "seconds": 0.9088,
+      "nativeSeconds": 0.9602,
+      "tempo": 1.0437
+    },
+    {
+      "file": "n135.wav",
+      "seconds": 0.8767,
+      "nativeSeconds": 0.8767,
+      "tempo": 1.0
+    },
+    {
+      "file": "n136.wav",
+      "seconds": 0.9185,
+      "nativeSeconds": 1.0585,
+      "tempo": 1.1506
+    },
+    {
+      "file": "n137.wav",
+      "seconds": 0.8083,
+      "nativeSeconds": 0.8083,
+      "tempo": 1.0
+    },
+    {
+      "file": "n138.wav",
+      "seconds": 0.9177,
+      "nativeSeconds": 0.9393,
+      "tempo": 1.0209
+    },
+    {
+      "file": "n139.wav",
+      "seconds": 0.9081,
+      "nativeSeconds": 0.9675,
+      "tempo": 1.0516
+    },
+    {
+      "file": "n140.wav",
+      "seconds": 0.81,
+      "nativeSeconds": 0.81,
+      "tempo": 1.0
+    },
+    {
+      "file": "n141.wav",
+      "seconds": 0.8051,
+      "nativeSeconds": 0.8051,
+      "tempo": 1.0
+    },
+    {
+      "file": "n142.wav",
+      "seconds": 0.8559,
+      "nativeSeconds": 0.8559,
+      "tempo": 1.0
+    },
+    {
+      "file": "n143.wav",
+      "seconds": 0.8185,
+      "nativeSeconds": 0.8185,
+      "tempo": 1.0
+    },
+    {
+      "file": "n144.wav",
+      "seconds": 0.8032,
+      "nativeSeconds": 0.8032,
+      "tempo": 1.0
+    },
+    {
+      "file": "n145.wav",
+      "seconds": 0.8684,
+      "nativeSeconds": 0.8684,
+      "tempo": 1.0
+    },
+    {
+      "file": "n146.wav",
+      "seconds": 0.8858,
+      "nativeSeconds": 0.8858,
+      "tempo": 1.0
+    },
+    {
+      "file": "n147.wav",
+      "seconds": 0.9174,
+      "nativeSeconds": 0.973,
+      "tempo": 1.0576
+    },
+    {
+      "file": "n148.wav",
+      "seconds": 0.8961,
+      "nativeSeconds": 0.8961,
+      "tempo": 1.0
+    },
+    {
+      "file": "n149.wav",
+      "seconds": 0.9188,
+      "nativeSeconds": 0.9785,
+      "tempo": 1.0635
+    },
+    {
+      "file": "n150.wav",
+      "seconds": 0.8795,
+      "nativeSeconds": 0.8795,
+      "tempo": 1.0
+    },
+    {
+      "file": "n151.wav",
+      "seconds": 0.9125,
+      "nativeSeconds": 0.9528,
+      "tempo": 1.0356
+    },
+    {
+      "file": "n152.wav",
+      "seconds": 0.8716,
+      "nativeSeconds": 0.8716,
+      "tempo": 1.0
+    },
+    {
+      "file": "n153.wav",
+      "seconds": 0.8083,
+      "nativeSeconds": 0.8083,
+      "tempo": 1.0
+    },
+    {
+      "file": "n154.wav",
+      "seconds": 0.8953,
+      "nativeSeconds": 0.8953,
+      "tempo": 1.0
+    },
+    {
+      "file": "n155.wav",
+      "seconds": 0.8881,
+      "nativeSeconds": 0.8881,
+      "tempo": 1.0
+    },
+    {
+      "file": "n156.wav",
+      "seconds": 0.8696,
+      "nativeSeconds": 0.8696,
+      "tempo": 1.0
+    },
+    {
+      "file": "n157.wav",
+      "seconds": 0.9283,
+      "nativeSeconds": 1.1375,
+      "tempo": 1.2365
+    },
+    {
+      "file": "n158.wav",
+      "seconds": 0.8027,
+      "nativeSeconds": 0.8027,
+      "tempo": 1.0
+    },
+    {
+      "file": "n159.wav",
+      "seconds": 0.9038,
+      "nativeSeconds": 0.9346,
+      "tempo": 1.0159
+    },
+    {
+      "file": "n160.wav",
+      "seconds": 0.817,
+      "nativeSeconds": 0.817,
+      "tempo": 1.0
+    },
+    {
+      "file": "n161.wav",
+      "seconds": 0.8885,
+      "nativeSeconds": 0.8885,
+      "tempo": 1.0
+    },
+    {
+      "file": "n162.wav",
+      "seconds": 0.7371,
+      "nativeSeconds": 0.7371,
+      "tempo": 1.0
+    },
+    {
+      "file": "n163.wav",
+      "seconds": 0.872,
+      "nativeSeconds": 0.872,
+      "tempo": 1.0
+    },
+    {
+      "file": "n164.wav",
+      "seconds": 0.8893,
+      "nativeSeconds": 0.8893,
+      "tempo": 1.0
+    },
+    {
+      "file": "n165.wav",
+      "seconds": 0.9177,
+      "nativeSeconds": 0.964,
+      "tempo": 1.0478
+    },
+    {
+      "file": "n166.wav",
+      "seconds": 0.8968,
+      "nativeSeconds": 0.8968,
+      "tempo": 1.0
+    },
+    {
+      "file": "n167.wav",
+      "seconds": 0.8167,
+      "nativeSeconds": 0.8167,
+      "tempo": 1.0
+    },
+    {
+      "file": "n168.wav",
+      "seconds": 0.7857,
+      "nativeSeconds": 0.7857,
+      "tempo": 1.0
+    },
+    {
+      "file": "n169.wav",
+      "seconds": 0.9217,
+      "nativeSeconds": 0.9771,
+      "tempo": 1.0621
+    },
+    {
+      "file": "n170.wav",
+      "seconds": 0.9173,
+      "nativeSeconds": 0.9753,
+      "tempo": 1.0601
+    },
+    {
+      "file": "n171.wav",
+      "seconds": 0.9181,
+      "nativeSeconds": 0.9306,
+      "tempo": 1.0115
+    },
+    {
+      "file": "n172.wav",
+      "seconds": 0.917,
+      "nativeSeconds": 0.9604,
+      "tempo": 1.0439
+    },
+    {
+      "file": "n173.wav",
+      "seconds": 0.8813,
+      "nativeSeconds": 0.8813,
+      "tempo": 1.0
+    },
+    {
+      "file": "n174.wav",
+      "seconds": 0.8985,
+      "nativeSeconds": 0.8985,
+      "tempo": 1.0
+    },
+    {
+      "file": "n175.wav",
+      "seconds": 0.9227,
+      "nativeSeconds": 0.977,
+      "tempo": 1.062
+    },
+    {
+      "file": "n176.wav",
+      "seconds": 0.8967,
+      "nativeSeconds": 0.8967,
+      "tempo": 1.0
+    },
+    {
+      "file": "n177.wav",
+      "seconds": 0.9119,
+      "nativeSeconds": 0.9453,
+      "tempo": 1.0274
+    },
+    {
+      "file": "n178.wav",
+      "seconds": 0.897,
+      "nativeSeconds": 0.897,
+      "tempo": 1.0
+    },
+    {
+      "file": "n179.wav",
+      "seconds": 0.8948,
+      "nativeSeconds": 0.8948,
+      "tempo": 1.0
+    },
+    {
+      "file": "n180.wav",
+      "seconds": 0.911,
+      "nativeSeconds": 1.1282,
+      "tempo": 1.2263
+    },
+    {
+      "file": "n181.wav",
+      "seconds": 0.914,
+      "nativeSeconds": 0.9416,
+      "tempo": 1.0235
+    },
+    {
+      "file": "n182.wav",
+      "seconds": 0.8128,
+      "nativeSeconds": 0.8128,
+      "tempo": 1.0
+    },
+    {
+      "file": "n183.wav",
+      "seconds": 0.8926,
+      "nativeSeconds": 0.8926,
+      "tempo": 1.0
+    },
+    {
+      "file": "n184.wav",
+      "seconds": 0.9221,
+      "nativeSeconds": 0.9656,
+      "tempo": 1.0496
+    },
+    {
+      "file": "n185.wav",
+      "seconds": 0.9134,
+      "nativeSeconds": 1.2671,
+      "tempo": 1.3773
+    },
+    {
+      "file": "n186.wav",
+      "seconds": 0.9308,
+      "nativeSeconds": 1.0555,
+      "tempo": 1.1473
+    },
+    {
+      "file": "n187.wav",
+      "seconds": 0.9213,
+      "nativeSeconds": 1.0354,
+      "tempo": 1.1255
+    },
+    {
+      "file": "n188.wav",
+      "seconds": 0.8555,
+      "nativeSeconds": 0.8555,
+      "tempo": 1.0
+    },
+    {
+      "file": "n189.wav",
+      "seconds": 0.9105,
+      "nativeSeconds": 1.2858,
+      "tempo": 1.3976
+    },
+    {
+      "file": "n190.wav",
+      "seconds": 0.9155,
+      "nativeSeconds": 0.9289,
+      "tempo": 1.0096
+    },
+    {
+      "file": "n191.wav",
+      "seconds": 0.8953,
+      "nativeSeconds": 0.8953,
+      "tempo": 1.0
+    },
+    {
+      "file": "n192.wav",
+      "seconds": 0.9207,
+      "nativeSeconds": 0.977,
+      "tempo": 1.062
+    },
+    {
+      "file": "n193.wav",
+      "seconds": 0.8986,
+      "nativeSeconds": 0.8986,
+      "tempo": 1.0
+    },
+    {
+      "file": "n194.wav",
+      "seconds": 0.88,
+      "nativeSeconds": 0.88,
+      "tempo": 1.0
+    },
+    {
+      "file": "n195.wav",
+      "seconds": 0.9184,
+      "nativeSeconds": 1.093,
+      "tempo": 1.188
+    },
+    {
+      "file": "n196.wav",
+      "seconds": 0.9175,
+      "nativeSeconds": 0.9705,
+      "tempo": 1.0548
+    },
+    {
+      "file": "n197.wav",
+      "seconds": 0.783,
+      "nativeSeconds": 0.783,
+      "tempo": 1.0
+    },
+    {
+      "file": "n198.wav",
+      "seconds": 0.8063,
+      "nativeSeconds": 0.8063,
+      "tempo": 1.0
+    },
+    {
+      "file": "n199.wav",
+      "seconds": 0.9115,
+      "nativeSeconds": 0.9413,
+      "tempo": 1.0231
+    },
+    {
+      "file": "n200.wav",
+      "seconds": 0.7762,
+      "nativeSeconds": 0.7762,
+      "tempo": 1.0
+    },
+    {
+      "file": "n201.wav",
+      "seconds": 0.879,
+      "nativeSeconds": 0.879,
+      "tempo": 1.0
+    },
+    {
+      "file": "n202.wav",
+      "seconds": 0.7617,
+      "nativeSeconds": 0.7617,
+      "tempo": 1.0
+    },
+    {
+      "file": "n203.wav",
+      "seconds": 0.8136,
+      "nativeSeconds": 0.8136,
+      "tempo": 1.0
+    },
+    {
+      "file": "n204.wav",
+      "seconds": 0.9123,
+      "nativeSeconds": 0.952,
+      "tempo": 1.0347
+    },
+    {
+      "file": "n205.wav",
+      "seconds": 0.9206,
+      "nativeSeconds": 0.9705,
+      "tempo": 1.0548
+    },
+    {
+      "file": "n206.wav",
+      "seconds": 0.782,
+      "nativeSeconds": 0.782,
+      "tempo": 1.0
+    },
+    {
+      "file": "n207.wav",
+      "seconds": 0.9195,
+      "nativeSeconds": 0.9262,
+      "tempo": 1.0067
+    },
+    {
+      "file": "n208.wav",
+      "seconds": 0.9324,
+      "nativeSeconds": 0.9783,
+      "tempo": 1.0634
+    },
+    {
+      "file": "n209.wav",
+      "seconds": 0.8879,
+      "nativeSeconds": 0.8879,
+      "tempo": 1.0
+    },
+    {
+      "file": "n210.wav",
+      "seconds": 0.8975,
+      "nativeSeconds": 0.8975,
+      "tempo": 1.0
+    },
+    {
+      "file": "n211.wav",
+      "seconds": 0.8084,
+      "nativeSeconds": 0.8084,
+      "tempo": 1.0
+    },
+    {
+      "file": "n212.wav",
+      "seconds": 0.8178,
+      "nativeSeconds": 0.8178,
+      "tempo": 1.0
+    },
+    {
+      "file": "n213.wav",
+      "seconds": 0.728,
+      "nativeSeconds": 0.728,
+      "tempo": 1.0
+    },
+    {
+      "file": "n214.wav",
+      "seconds": 0.9117,
+      "nativeSeconds": 1.0856,
+      "tempo": 1.18
+    },
+    {
+      "file": "n215.wav",
+      "seconds": 0.9101,
+      "nativeSeconds": 0.9692,
+      "tempo": 1.0535
+    },
+    {
+      "file": "n216.wav",
+      "seconds": 0.8181,
+      "nativeSeconds": 0.8181,
+      "tempo": 1.0
+    },
+    {
+      "file": "n217.wav",
+      "seconds": 0.9069,
+      "nativeSeconds": 1.0797,
+      "tempo": 1.1736
+    },
+    {
+      "file": "n218.wav",
+      "seconds": 0.9208,
+      "nativeSeconds": 1.1101,
+      "tempo": 1.2067
+    },
+    {
+      "file": "n219.wav",
+      "seconds": 0.8848,
+      "nativeSeconds": 0.8848,
+      "tempo": 1.0
+    },
+    {
+      "file": "n220.wav",
+      "seconds": 0.9188,
+      "nativeSeconds": 1.2167,
+      "tempo": 1.3225
+    },
+    {
+      "file": "n221.wav",
+      "seconds": 0.8517,
+      "nativeSeconds": 0.8517,
+      "tempo": 1.0
+    },
+    {
+      "file": "n222.wav",
+      "seconds": 0.6408,
+      "nativeSeconds": 0.6408,
+      "tempo": 1.0
+    },
+    {
+      "file": "n223.wav",
+      "seconds": 0.8828,
+      "nativeSeconds": 0.8828,
+      "tempo": 1.0
+    },
+    {
+      "file": "n224.wav",
+      "seconds": 0.8832,
+      "nativeSeconds": 0.8832,
+      "tempo": 1.0
+    },
+    {
+      "file": "n225.wav",
+      "seconds": 0.9213,
+      "nativeSeconds": 1.1383,
+      "tempo": 1.2373
+    },
+    {
+      "file": "n226.wav",
+      "seconds": 0.7362,
+      "nativeSeconds": 0.7362,
+      "tempo": 1.0
+    },
+    {
+      "file": "n227.wav",
+      "seconds": 0.8021,
+      "nativeSeconds": 0.8021,
+      "tempo": 1.0
+    },
+    {
+      "file": "n228.wav",
+      "seconds": 0.9205,
+      "nativeSeconds": 0.9673,
+      "tempo": 1.0514
+    },
+    {
+      "file": "n229.wav",
+      "seconds": 0.7956,
+      "nativeSeconds": 0.7956,
+      "tempo": 1.0
+    },
+    {
+      "file": "n230.wav",
+      "seconds": 0.812,
+      "nativeSeconds": 0.812,
+      "tempo": 1.0
+    },
+    {
+      "file": "n231.wav",
+      "seconds": 0.8914,
+      "nativeSeconds": 0.8914,
+      "tempo": 1.0
+    },
+    {
+      "file": "n232.wav",
+      "seconds": 0.7664,
+      "nativeSeconds": 0.7664,
+      "tempo": 1.0
+    },
+    {
+      "file": "n233.wav",
+      "seconds": 0.8786,
+      "nativeSeconds": 0.8786,
+      "tempo": 1.0
+    },
+    {
+      "file": "n234.wav",
+      "seconds": 0.9098,
+      "nativeSeconds": 1.0947,
+      "tempo": 1.1899
+    },
+    {
+      "file": "n235.wav",
+      "seconds": 0.9132,
+      "nativeSeconds": 1.2664,
+      "tempo": 1.3765
+    },
+    {
+      "file": "n236.wav",
+      "seconds": 0.9223,
+      "nativeSeconds": 0.9779,
+      "tempo": 1.0629
+    },
+    {
+      "file": "n237.wav",
+      "seconds": 0.9157,
+      "nativeSeconds": 1.0063,
+      "tempo": 1.0938
+    },
+    {
+      "file": "n238.wav",
+      "seconds": 0.9123,
+      "nativeSeconds": 0.9445,
+      "tempo": 1.0266
+    },
+    {
+      "file": "n239.wav",
+      "seconds": 0.9066,
+      "nativeSeconds": 1.0115,
+      "tempo": 1.0995
+    },
+    {
+      "file": "n240.wav",
+      "seconds": 0.9169,
+      "nativeSeconds": 0.9525,
+      "tempo": 1.0354
+    },
+    {
+      "file": "n241.wav",
+      "seconds": 0.8735,
+      "nativeSeconds": 0.8735,
+      "tempo": 1.0
+    },
+    {
+      "file": "n242.wav",
+      "seconds": 0.8057,
+      "nativeSeconds": 0.8057,
+      "tempo": 1.0
+    },
+    {
+      "file": "n243.wav",
+      "seconds": 0.9183,
+      "nativeSeconds": 0.9656,
+      "tempo": 1.0495
+    },
+    {
+      "file": "n244.wav",
+      "seconds": 0.8801,
+      "nativeSeconds": 0.8801,
+      "tempo": 1.0
+    },
+    {
+      "file": "n245.wav",
+      "seconds": 0.9247,
+      "nativeSeconds": 1.0427,
+      "tempo": 1.1333
+    },
+    {
+      "file": "n246.wav",
+      "seconds": 0.7932,
+      "nativeSeconds": 0.7932,
+      "tempo": 1.0
+    },
+    {
+      "file": "n247.wav",
+      "seconds": 0.8983,
+      "nativeSeconds": 0.8983,
+      "tempo": 1.0
+    },
+    {
+      "file": "n248.wav",
+      "seconds": 0.9067,
+      "nativeSeconds": 0.9503,
+      "tempo": 1.033
+    },
+    {
+      "file": "n249.wav",
+      "seconds": 0.8924,
+      "nativeSeconds": 0.8924,
+      "tempo": 1.0
+    },
+    {
+      "file": "n250.wav",
+      "seconds": 0.9233,
+      "nativeSeconds": 0.9332,
+      "tempo": 1.0143
+    },
+    {
+      "file": "n251.wav",
+      "seconds": 0.9177,
+      "nativeSeconds": 0.9354,
+      "tempo": 1.0167
+    },
+    {
+      "file": "n252.wav",
+      "seconds": 0.8019,
+      "nativeSeconds": 0.8019,
+      "tempo": 1.0
+    },
+    {
+      "file": "n253.wav",
+      "seconds": 0.868,
+      "nativeSeconds": 0.868,
+      "tempo": 1.0
+    },
+    {
+      "file": "n254.wav",
+      "seconds": 0.9356,
+      "nativeSeconds": 0.977,
+      "tempo": 1.062
+    },
+    {
+      "file": "n255.wav",
+      "seconds": 0.9215,
+      "nativeSeconds": 1.1806,
+      "tempo": 1.2833
+    },
+    {
+      "file": "n256.wav",
+      "seconds": 0.9345,
+      "nativeSeconds": 1.0538,
+      "tempo": 1.1454
+    },
+    {
+      "file": "n257.wav",
+      "seconds": 0.882,
+      "nativeSeconds": 0.882,
+      "tempo": 1.0
+    },
+    {
+      "file": "n258.wav",
+      "seconds": 0.9087,
+      "nativeSeconds": 0.9401,
+      "tempo": 1.0218
+    },
+    {
+      "file": "n259.wav",
+      "seconds": 0.8975,
+      "nativeSeconds": 0.8975,
+      "tempo": 1.0
+    },
+    {
+      "file": "n260.wav",
+      "seconds": 0.7912,
+      "nativeSeconds": 0.7912,
+      "tempo": 1.0
+    },
+    {
+      "file": "n261.wav",
+      "seconds": 0.9106,
+      "nativeSeconds": 0.9428,
+      "tempo": 1.0248
+    },
+    {
+      "file": "n262.wav",
+      "seconds": 0.9103,
+      "nativeSeconds": 0.9451,
+      "tempo": 1.0273
+    },
+    {
+      "file": "n263.wav",
+      "seconds": 0.9275,
+      "nativeSeconds": 0.9681,
+      "tempo": 1.0523
+    },
+    {
+      "file": "n264.wav",
+      "seconds": 0.6969,
+      "nativeSeconds": 0.6969,
+      "tempo": 1.0
+    },
+    {
+      "file": "n265.wav",
+      "seconds": 0.9164,
+      "nativeSeconds": 1.0119,
+      "tempo": 1.0999
+    },
+    {
+      "file": "n266.wav",
+      "seconds": 0.9048,
+      "nativeSeconds": 0.9252,
+      "tempo": 1.0056
+    },
+    {
+      "file": "n267.wav",
+      "seconds": 0.8988,
+      "nativeSeconds": 0.8988,
+      "tempo": 1.0
+    },
+    {
+      "file": "n268.wav",
+      "seconds": 0.8166,
+      "nativeSeconds": 0.8166,
+      "tempo": 1.0
+    },
+    {
+      "file": "n269.wav",
+      "seconds": 0.9229,
+      "nativeSeconds": 0.9689,
+      "tempo": 1.0531
+    },
+    {
+      "file": "n270.wav",
+      "seconds": 0.9155,
+      "nativeSeconds": 0.954,
+      "tempo": 1.0369
+    },
+    {
+      "file": "n271.wav",
+      "seconds": 0.8821,
+      "nativeSeconds": 0.8821,
+      "tempo": 1.0
+    },
+    {
+      "file": "n272.wav",
+      "seconds": 0.8026,
+      "nativeSeconds": 0.8026,
+      "tempo": 1.0
+    },
+    {
+      "file": "n273.wav",
+      "seconds": 0.8912,
+      "nativeSeconds": 0.8912,
+      "tempo": 1.0
+    },
+    {
+      "file": "n274.wav",
+      "seconds": 0.9384,
+      "nativeSeconds": 0.9778,
+      "tempo": 1.0629
+    },
+    {
+      "file": "n275.wav",
+      "seconds": 0.9169,
+      "nativeSeconds": 1.1807,
+      "tempo": 1.2834
+    },
+    {
+      "file": "n276.wav",
+      "seconds": 0.8607,
+      "nativeSeconds": 0.8607,
+      "tempo": 1.0
+    },
+    {
+      "file": "n277.wav",
+      "seconds": 0.8692,
+      "nativeSeconds": 0.8692,
+      "tempo": 1.0
+    },
+    {
+      "file": "n278.wav",
+      "seconds": 0.925,
+      "nativeSeconds": 0.9733,
+      "tempo": 1.0579
+    },
+    {
+      "file": "n279.wav",
+      "seconds": 0.8866,
+      "nativeSeconds": 0.8866,
+      "tempo": 1.0
+    },
+    {
+      "file": "n280.wav",
+      "seconds": 0.9227,
+      "nativeSeconds": 1.1057,
+      "tempo": 1.2018
+    },
+    {
+      "file": "n281.wav",
+      "seconds": 0.9073,
+      "nativeSeconds": 0.9233,
+      "tempo": 1.0036
+    },
+    {
+      "file": "n282.wav",
+      "seconds": 0.921,
+      "nativeSeconds": 1.038,
+      "tempo": 1.1283
+    },
+    {
+      "file": "n283.wav",
+      "seconds": 0.9093,
+      "nativeSeconds": 1.0536,
+      "tempo": 1.1452
+    },
+    {
+      "file": "n284.wav",
+      "seconds": 0.9111,
+      "nativeSeconds": 0.9429,
+      "tempo": 1.0249
+    },
+    {
+      "file": "n285.wav",
+      "seconds": 0.9183,
+      "nativeSeconds": 1.2439,
+      "tempo": 1.3521
+    },
+    {
+      "file": "n286.wav",
+      "seconds": 0.7933,
+      "nativeSeconds": 0.7933,
+      "tempo": 1.0
+    },
+    {
+      "file": "n287.wav",
+      "seconds": 0.9212,
+      "nativeSeconds": 1.1995,
+      "tempo": 1.3038
+    },
+    {
+      "file": "n288.wav",
+      "seconds": 0.8007,
+      "nativeSeconds": 0.8007,
+      "tempo": 1.0
+    },
+    {
+      "file": "n289.wav",
+      "seconds": 0.9099,
+      "nativeSeconds": 1.0111,
+      "tempo": 1.099
+    },
+    {
+      "file": "n290.wav",
+      "seconds": 0.8472,
+      "nativeSeconds": 0.8472,
+      "tempo": 1.0
+    },
+    {
+      "file": "n291.wav",
+      "seconds": 0.9185,
+      "nativeSeconds": 1.1656,
+      "tempo": 1.267
+    },
+    {
+      "file": "n292.wav",
+      "seconds": 0.9192,
+      "nativeSeconds": 1.022,
+      "tempo": 1.1109
+    },
+    {
+      "file": "n293.wav",
+      "seconds": 0.8185,
+      "nativeSeconds": 0.8185,
+      "tempo": 1.0
+    },
+    {
+      "file": "n294.wav",
+      "seconds": 0.9213,
+      "nativeSeconds": 1.0275,
+      "tempo": 1.1168
+    },
+    {
+      "file": "n295.wav",
+      "seconds": 0.9083,
+      "nativeSeconds": 1.0506,
+      "tempo": 1.142
+    },
+    {
+      "file": "n296.wav",
+      "seconds": 0.7085,
+      "nativeSeconds": 0.7085,
+      "tempo": 1.0
+    },
+    {
+      "file": "n297.wav",
+      "seconds": 0.9083,
+      "nativeSeconds": 0.9306,
+      "tempo": 1.0115
+    },
+    {
+      "file": "n298.wav",
+      "seconds": 0.7975,
+      "nativeSeconds": 0.7975,
+      "tempo": 1.0
+    },
+    {
+      "file": "n299.wav",
+      "seconds": 0.9255,
+      "nativeSeconds": 1.2167,
+      "tempo": 1.3225
+    },
+    {
+      "file": "n300.wav",
+      "seconds": 0.7385,
+      "nativeSeconds": 0.7385,
+      "tempo": 1.0
+    },
+    {
+      "file": "ready.wav",
+      "seconds": 2.0722,
+      "nativeSeconds": 2.0722,
+      "tempo": 1.0
+    },
+    {
+      "file": "success.wav",
+      "seconds": 2.7892,
+      "nativeSeconds": 2.7892,
+      "tempo": 1.0
+    }
+  ]
+}
