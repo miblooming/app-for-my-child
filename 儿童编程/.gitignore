@@ -1,0 +1,32 @@
+node_modules/
+dist/
+build/
+android/.gradle/
+android/local.properties
+android/app/build/
+android/build/
+signing/
+test-results/
+playwright-report/
+tools/java17/
+tools/jdk17.zip
+tools/gradle-cache/
+
+# Local development materials and speech-generation intermediates
+/交付文件/
+/开发资料/
+/screenshots/
+/audio/
+/儿童可视化编程小镇.md
+/迁移说明.md
+/tools/voice-diagnostic.py
+
+# Capacitor generates these during sync; do not publish copied web bundles
+/android/capacitor.settings.gradle
+/android/app/capacitor.build.gradle
+/public/LICENSE
+/public/NOTICE.md
+/public/THIRD_PARTY_NOTICES.md
+
+# The Gradle wrapper is required for a clean source checkout
+!/android/gradle/wrapper/gradle-wrapper.jar

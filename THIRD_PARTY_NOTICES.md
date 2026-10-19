@@ -1,6 +1,6 @@
 # 第三方资源说明
 
-根目录 PolyForm Noncommercial 1.0.0 适用于本仓库原创代码和文档，不替代下列第三方资源的许可，也不授予第三方未明确提供的权利。
+根目录 PolyForm Noncommercial 1.0.0 适用于当前仓库原创软件及随附原创内容，不替代下列第三方资源的许可，也不授予第三方未明确提供的权利。
 
 ## Unicode Unihan
 
@@ -22,9 +22,10 @@
 - 来源：<https://github.com/QwenLM/Qwen3-TTS>。
 - 模型：<https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice>。
 - 该上游项目采用 Apache-2.0；模型代码与权重均未包含在本仓库中。
-- 倒计时使用 Dylan 预设声线；字词朗读使用 Serena 预设声线。这里只保存成品音频及其来源清单，手机端不执行语音模型。
+- 倒计时使用 Dylan 预设声线；字词朗读使用 Serena 预设声线；编程小镇使用 Vivian 预设声线，统一快乐童声指令。这里只保存成品音频及其来源清单，手机端不执行语音模型。
 - 倒计时来源与时长配置：`倒计时APP/app/src/main/assets/voice-pack.json`。
 - 学字字词朗读生成记录：`儿童学字APP/audio/sources/tts-voice-manifest.json`；其中模型节的 `defaultSpeaker` 为生成工具的默认值，每段实际使用的声线以对应 `clips` 条目中的 `speaker` 为准。
+- 编程小镇的 53 段 MP3 位于 `儿童编程/public/voice/`，逐条来源记录见其中的 `voice-manifest.json`，生成文案见 `儿童编程/voice-jobs.json`；实际使用声线以每段记录为准。
 
 ## 声母、韵母录音
 
@@ -36,3 +37,7 @@
 ## 识字表整理结果
 
 字库的汉字顺序由项目提供的 15 页、2,500 字识字表提取并人工核对，字词内容经过整理。原始图片、手工星标和孩子的测试成绩均未发布。字库内容与整理范围详见 `儿童学字APP/数据来源与许可.md`。
+
+## 编程小镇框架
+
+编程小镇使用 Phaser 3.90.0、eventemitter3、Capacitor Core 和 Android 6.2.1，保留各自 MIT 许可证。完整版权与许可文本见 `儿童编程/THIRD_PARTY_NOTICES.md`，同时随 APK 与网页版打包。Gradle Wrapper 的第三方许可见 `儿童编程/android/gradle/wrapper/`；构建工具、SDK/JDK、Node 依赖目录与模型权重不随源码分发。

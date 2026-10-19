@@ -76,6 +76,6 @@ python -m venv .venv
 
 ## 数据和许可
 
-原创代码和文档采用根目录 [PolyForm Noncommercial 1.0.0 非商业许可证](../LICENSE)。笔画数据来自 Unicode Unihan，拼音由 pypinyin 生成并校订；完整许可随本地页面保存，并可在 APP 的设置中查看。
+当前原创代码和文档采用根目录 [PolyForm Noncommercial 1.0.0 非商业许可证](../LICENSE)，商业用途需单独授权。笔画数据来自 Unicode Unihan，拼音由 pypinyin 生成并校订；完整第三方许可随本地页面保存，并可在 APP 的设置中查看。
 
-字词朗读为 Qwen3-TTS Serena 合成语音。声母、韵母录音来自 cmguo/PinYinSound；上游未声明许可证，这 47 段录音不属于本项目许可证的授权范围。详细来源与范围见 [数据来源与许可](数据来源与许可.md) 和 [第三方资源说明](../THIRD_PARTY_NOTICES.md)。
+字词朗读为 Qwen3-TTS Serena 合成语音。声母、韵母录音来自 cmguo/PinYinSound；上游未声明许可证，这 47 段录音不属于本项目的授权范围。详细来源与范围见 [数据来源与许可](数据来源与许可.md) 和 [第三方资源说明](../THIRD_PARTY_NOTICES.md)。

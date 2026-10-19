@@ -1,0 +1,12 @@
+import { chromium } from '@playwright/test';
+import fs from 'node:fs';
+fs.mkdirSync('screenshots',{recursive:true});
+const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true,args:['--no-sandbox']});
+const page=await browser.newPage({viewport:{width:1440,height:1080},deviceScaleFactor:1});
+const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto('http://127.0.0.1:5178');await page.waitForTimeout(2000);
+await page.screenshot({path:'screenshots/desktop.png',fullPage:true});
+await page.setViewportSize({width:390,height:844});await page.waitForTimeout(300);
+await page.screenshot({path:'screenshots/mobile.png',fullPage:true});
+console.log(JSON.stringify({errors,snapshot:await page.evaluate(()=>window.__townSnapshot),overflow:await page.evaluate(()=>({scroll:document.documentElement.scrollWidth,client:document.documentElement.clientWidth}))},null,2));
+await browser.close();

@@ -1,0 +1,28 @@
+{
+  "name": "wonder-town",
+  "version": "1.6.0",
+  "private": true,
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "type": "module",
+  "scripts": {
+    "prebuild": "node tools/prepare-notices.mjs",
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "tsx --test tests/model.test.ts tests/campaign.test.ts tests/program-editor.test.ts tests/learning.test.ts",
+    "android:sync": "npm run build && cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "6.2.1",
+    "@capacitor/core": "6.2.1",
+    "phaser": "3.90.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "6.2.1",
+    "@playwright/test": "1.56.1",
+    "@types/node": "22.10.5",
+    "tsx": "4.20.6",
+    "typescript": "5.7.3",
+    "vite": "5.4.21"
+  }
+}

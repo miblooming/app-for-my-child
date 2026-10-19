@@ -62,4 +62,4 @@ New-Item -ItemType Directory -Force build/test-classes | Out-Null
 
 ## 资源与许可
 
-原创代码和文档采用根目录 [PolyForm Noncommercial 1.0.0 非商业许可证](../LICENSE)。声音由 Qwen3-TTS 1.7B CustomVoice 的 Dylan 声线合成，模型、修订、文案和音频时长保存在 `voice-pack.json`。模型权重和生成中间文件未发布；来源见 [第三方资源说明](../THIRD_PARTY_NOTICES.md)。
+当前原创代码和文档采用根目录 [PolyForm Noncommercial 1.0.0 非商业许可证](../LICENSE)，商业用途需单独授权。声音由 Qwen3-TTS 1.7B CustomVoice 的 Dylan 声线合成，模型、修订、文案和音频时长保存在 `voice-pack.json`。模型权重和生成中间文件未发布；来源见 [第三方资源说明](../THIRD_PARTY_NOTICES.md)。

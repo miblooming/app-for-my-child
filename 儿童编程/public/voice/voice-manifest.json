@@ -1,0 +1,489 @@
+{
+  "model": {
+    "purpose": "expressive text-to-speech",
+    "path": "models/tts/qwen3-tts-1.7b-customvoice",
+    "source": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "revision": "0c0e3051f131929182e2c023b9537f8b1c68adfe",
+    "defaultSpeaker": "Dylan",
+    "nativeSampleRate": 24000
+  },
+  "clips": {
+    "welcome": {
+      "fingerprint": "c53938b840f50bf53c79cccb405a3648e4a92a60bc718106a6c4f618767c1f78",
+      "text": "欢迎来到编程小镇！排好方向，小伙伴就会自动工作啦！",
+      "file": "welcome.wav",
+      "seconds": 5.04,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "success": {
+      "fingerprint": "bf91e2d843be5aeb5f385d554c855e4f81f18004d17420a00e445e10fff82d73",
+      "text": "太棒啦！你的小程序让小镇变得更热闹了。",
+      "file": "success.wav",
+      "seconds": 4.16,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "help": {
+      "fingerprint": "27021594732ab3e46dfd418fd67b811ed428ac6a24bbacb1e8307d1537d1e3d4",
+      "text": "先执行开始，回到起点。再按指令，一步一步走！长按可以排序。先点垃圾桶，再点指令删除。清除是全部删除，撤销能找回来。改好指令，就从头再来！",
+      "file": "help.wav",
+      "seconds": 15.44,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "action-start": {
+      "fingerprint": "ba03ea2b4d06c20998a14d052405582411316690fa2f14e262e5de07230f6bba",
+      "text": "开始，回到起点！",
+      "file": "action-start.wav",
+      "seconds": 2,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "action-up": {
+      "fingerprint": "0060eaa0b26f5ae887a655a23113c58568adaafe1db39893f59035baa4839802",
+      "text": "向上走一步！",
+      "file": "action-up.wav",
+      "seconds": 1.52,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "action-down": {
+      "fingerprint": "76992abca07d88a4e74fd111b0d615a08a3ad6c24f9f69300c2d192ad870c4d4",
+      "text": "向下走一步！",
+      "file": "action-down.wav",
+      "seconds": 1.6,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "action-left": {
+      "fingerprint": "7bea207e681168fb0105ee6da62d0cc43cd03c4da4d9c745c1095f248e3b8d21",
+      "text": "向左走一步！",
+      "file": "action-left.wav",
+      "seconds": 1.36,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "action-right": {
+      "fingerprint": "cf907e0d34b10e2d621c50f8482a8d47697558ac596032b6d2a63305a5923d3f",
+      "text": "向右走一步！",
+      "file": "action-right.wav",
+      "seconds": 1.12,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "action-wait": {
+      "fingerprint": "dc4a24666a41bc72f7207909161b122e4d5fc7f83ebf695b1ac817ba0ba173d2",
+      "text": "等一等再走！",
+      "file": "action-wait.wav",
+      "seconds": 1.44,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "action-blocked": {
+      "fingerprint": "faf9e4299fed7144974d59ab5bebbb326dadcf8b4ab4ec955edf80cdb69f0c5c",
+      "text": "这里走不通！",
+      "file": "action-blocked.wav",
+      "seconds": 1.2,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "action-collect": {
+      "fingerprint": "0124089bbcfeb9324407e047b3b4c93af685c82ed639d37ba10004d913a3c54f",
+      "text": "我来拔萝卜！",
+      "file": "action-collect.wav",
+      "seconds": 0.88,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "action-deposit": {
+      "fingerprint": "18277dc4eef1643dd988c0611f31590a29166ff184c0af4ea419eeddf644d773",
+      "text": "放进仓库啦！",
+      "file": "action-deposit.wav",
+      "seconds": 1.2,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "action-take-carrot": {
+      "fingerprint": "ed7bedccc8217cf03583c617c583e4d0f5f2279e4fcd90dc06524f99fe825102",
+      "text": "拿到萝卜啦！",
+      "file": "action-take-carrot.wav",
+      "seconds": 1.12,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "action-take-meal": {
+      "fingerprint": "f975f00113ca3e00b3bcb7ef19d1593b8a3cc9e99cff736afcc00e214079d852",
+      "text": "端好热汤，出发！",
+      "file": "action-take-meal.wav",
+      "seconds": 2,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "action-cook": {
+      "fingerprint": "231495d2d5a5de987415cc1bbeb397baebaeb6ff5bf1d75d8e6e492da6addf4a",
+      "text": "萝卜汤，做好啦！",
+      "file": "action-cook.wav",
+      "seconds": 1.28,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "action-serve": {
+      "fingerprint": "f34ebace744a65882820369fb306b520b088918ca2995e8bac1a74980b95e4c9",
+      "text": "送到朋友家啦！",
+      "file": "action-serve.wav",
+      "seconds": 1.6,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-rabbit-first": {
+      "fingerprint": "3ca69829952d9283a9074aad82cef2b42497709ff197ce4b59d54b307452576d",
+      "text": "米米从萝卜田出发，向右走3格，把萝卜送到仓库。",
+      "file": "guide-rabbit-first.wav",
+      "seconds": 5.84,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-rabbit-turn": {
+      "fingerprint": "468c64232881270084c7eb1cd1e95bbc5663df5a73546923791116cf826886e7",
+      "text": "米米已经拿好萝卜。先向上走1格，再向右走3格，送到仓库。",
+      "file": "guide-rabbit-turn.wav",
+      "seconds": 6.8,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-rabbit-road": {
+      "fingerprint": "2c6c0dd9a882e5cb96dd960a1cc3ee4bf1ce40301ed7fad939536117933e558e",
+      "text": "前面的路被挡住了。如果右边能走就向右，否则向下绕行，再去仓库。",
+      "file": "guide-rabbit-road.wav",
+      "seconds": 7.36,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-rabbit-repeat": {
+      "fingerprint": "c3b8d2df8beadc12f4e339bed6fe18a418bf86af461f470aeb5fc40a96cee70f",
+      "text": "把一个向右装进“重复3次”，让米米完成两轮运输。",
+      "file": "guide-rabbit-repeat.wav",
+      "seconds": 4.8,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-bear-first": {
+      "fingerprint": "f991a8f2e103e49bb147f02234a858ec17d5baa02c3fbcff94db424728137beb",
+      "text": "仓库准备好了萝卜。只给布布编程，向下走3格，到厨房做汤。",
+      "file": "guide-bear-first.wav",
+      "seconds": 6.48,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-bear-turn": {
+      "fingerprint": "9e7192ce59131a2d80b7d70ccb2f5dfbfa1dcc34de50206942baaf38becb630f",
+      "text": "布布拿着萝卜站在转角。向右1格，再向下2格，就到厨房啦。",
+      "file": "guide-bear-turn.wav",
+      "seconds": 7.12,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-bear-road": {
+      "fingerprint": "d4f3172485aec59d7bfbbac8d6b1c949b767e2245bdb69779d06947b697aeefd",
+      "text": "布布下方有路障。如果下方能走就向下，否则先向左绕开，再去厨房。",
+      "file": "guide-bear-road.wav",
+      "seconds": 7.36,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-bear-action": {
+      "fingerprint": "2dcd4b978bf63325f1a9e1393b0a42af53824be809698a283611326eeda30db3",
+      "text": "把去厨房的3个向下保存成拿手动作，让布布做两轮热汤。",
+      "file": "guide-bear-action.wav",
+      "seconds": 6,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-duck-first": {
+      "fingerprint": "0f44cd684f2676deee35b610bd441ec662faa7aa3d90262fdada9c356d368813",
+      "text": "取餐台已经备好热汤。只给点点编程，向左走3格，到朋友家送餐。",
+      "file": "guide-duck-first.wav",
+      "seconds": 7.04,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-duck-turn": {
+      "fingerprint": "ae078b10d6565e17fcb2382e662ff608bc114c43c9953cab19030f383533da93",
+      "text": "点点已经端好汤。先向左走2格，再向下走1格，就到朋友家。",
+      "file": "guide-duck-turn.wav",
+      "seconds": 6.08,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-duck-road": {
+      "fingerprint": "fdf4ac4f676ab2e422b07de28d4010e55c80959e6f3ec366adaee78cee974963",
+      "text": "点点左边有路障。如果左边不能走，就先向上绕开，再去花园。",
+      "file": "guide-duck-road.wav",
+      "seconds": 5.36,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-duck-target": {
+      "fingerprint": "9ab78623711101268d63d936516dc865e0a54ed7218673745f71a91793338ab6",
+      "text": "花园在点点的下方和左方。用“目的地在下方”“目的地在左边”来决定动作。",
+      "file": "guide-duck-target.wav",
+      "seconds": 6.4,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-pair-rabbit-bear": {
+      "fingerprint": "960cf909f8ecb1ef17d9e7a4c8a6df65c9e9115b05213a8d7e123d9147b6a244",
+      "text": "米米向右送萝卜，布布向下做热汤。两位伙伴各完成一轮，就能点亮星星。",
+      "file": "guide-pair-rabbit-bear.wav",
+      "seconds": 6.72,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-pair-rabbit-bear-road": {
+      "fingerprint": "02b537e490e54b27a1260a0839803c6102f75f3a7bc580db05164e79f70941dd",
+      "text": "米米绕开路障送食材，布布继续做汤。两位伙伴各完成两轮。",
+      "file": "guide-pair-rabbit-bear-road.wav",
+      "seconds": 6.16,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-pair-bear-duck": {
+      "fingerprint": "ba74faeac2782a0787281823e39d2e9ee119a6d0dc8e765fd7859fd6037aec92",
+      "text": "仓库有两颗萝卜。布布做汤，点点把汤送给朋友，两位伙伴各完成两轮。",
+      "file": "guide-pair-bear-duck.wav",
+      "seconds": 8.16,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-pair-bear-duck-road": {
+      "fingerprint": "6a02acfb6badb0a6b92465b9e7dfb7ea1b224c1e6ca32d4c00fe6b6b4643c47a",
+      "text": "布布负责做汤，点点判断左边的路障，绕行把汤送到花园。各完成两轮。",
+      "file": "guide-pair-bear-duck-road.wav",
+      "seconds": 7.36,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-pair-rabbit-duck": {
+      "fingerprint": "07de5ec00d3d89197a11bc844202758ec93d41378a69865fa2a8fd8783b8acb8",
+      "text": "米米用重复把萝卜送进仓库，点点才能取萝卜送给朋友。两人各完成两轮，用不超过四格的小程序。",
+      "file": "guide-pair-rabbit-duck.wav",
+      "seconds": 8.08,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-pair-rabbit-duck-turn": {
+      "fingerprint": "157eecd3b9f109d1bf0b4e1629963d03c0aca63f2028daca5eb1fe24b5d3385b",
+      "text": "米米绕路送萝卜，点点取货后观察移动路障。如果下方能走才向下，再向左送给朋友。",
+      "file": "guide-pair-rabbit-duck-turn.wav",
+      "seconds": 8.96,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "action-failure": {
+      "fingerprint": "a62d7fb0ed6053034929ae0927af9cd3c4b2031a34f28a19b4673f1424a6dd90",
+      "text": "未到达目的地，任务失败了。",
+      "file": "action-failure.wav",
+      "seconds": 2.96,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "action-complete": {
+      "fingerprint": "c2e4330b52d3aa0428b68ed3231827ef0e9544f59d27201be5f9c5d971698bdf",
+      "text": "到达目的地，任务完成啦！",
+      "file": "action-complete.wav",
+      "seconds": 2.32,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-rabbit-serpent": {
+      "fingerprint": "5c7c56710aa5d7285e9ef5178aa72a976db5467f5678d4cc71d49919f8558b75",
+      "text": "这条弯弯路要走二十四步。找出重复出现的路线，用九格以内的程序把萝卜送到终点。",
+      "file": "guide-rabbit-serpent.wav",
+      "seconds": 9.84,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-bear-stair": {
+      "fingerprint": "0957cca696f92c173d43abeaff0fdc7bacad029ea8f02d7b2dc5db3fdbefef23",
+      "text": "布布拿着食材，沿着阶梯走到厨房。每组都是向右、向下，用三格程序重复四组。",
+      "file": "guide-bear-stair.wav",
+      "seconds": 11.04,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-duck-many-bends": {
+      "fingerprint": "b39f11420c5aada0abc804157eb5749cbea9efd7277b094822e6b4b3165f83dc",
+      "text": "点点要走三十六步穿过三段几字长廊。把相同的一整段放进重复三次，用九格程序完成。",
+      "file": "guide-duck-many-bends.wav",
+      "seconds": 8.64,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-rabbit-moving-bridge": {
+      "fingerprint": "68659ddcd2b4a1c835476f709dd18ff3d7c366ea7bb3363e274e0a06d59c1f67",
+      "text": "小车会来回挡住桥。重复观察右边，能走就走，不能走就等。别只凭上一次看到的位置出发。",
+      "file": "guide-rabbit-moving-bridge.wav",
+      "seconds": 9.84,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-bear-two-gates": {
+      "fingerprint": "a80d944b7e82fb864f24f1325077a3433c4412f8841a65b05699d53fe2735bbb",
+      "text": "通往厨房的路有两辆移动小车。让布布重复观察右边，路通了才走，直到停在厨房。",
+      "file": "guide-bear-two-gates.wav",
+      "seconds": 8.96,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-duck-tide": {
+      "fingerprint": "867084ed6069ce72052a91aefecb99c92afbac955e0d6fbdfd95cf778918ac4d",
+      "text": "点点端着汤，前方的小车时不时挡住路。下方能走才向下，否则等一等，稳稳送到朋友家。",
+      "file": "guide-duck-tide.wav",
+      "seconds": 9.36,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-fox-first": {
+      "fingerprint": "e7f44a5cc16190e5ea566f020bac1bcb59b76034a5a5787c23be63f9d7b11bd4",
+      "text": "认识小狐闪闪！向下走五格，经过小怪物所在的格子就会自动消灭它，走到出口完成巡逻。",
+      "file": "guide-fox-first.wav",
+      "seconds": 8.64,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-fox-patrol": {
+      "fingerprint": "b2c246fe8533eadc20e6be850654446339e58a05fbec15d71a917bbc535ec68d",
+      "text": "弯弯路上藏着四只小怪物。闪闪用重复走完两段相同路线，清理所有怪物后到出口。",
+      "file": "guide-fox-patrol.wav",
+      "seconds": 8.8,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-pair-fox-rabbit": {
+      "fingerprint": "9f4b3c061b10db70526376f957ca70eb0a8b1a9da021b319034aec265affcdde",
+      "text": "闪闪在前面清理小怪物，米米在后面送萝卜。米米用如果观察右边，等路安全了再走。",
+      "file": "guide-pair-fox-rabbit.wav",
+      "seconds": 7.52,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-pair-fox-duck": {
+      "fingerprint": "8fa870612e8e08b91811502e480efe054783a27bb128384bf2ae4185ae5ae149",
+      "text": "闪闪向左清路，点点端汤跟上。点点每次判断左边是否安全，两位伙伴一起把汤送到。",
+      "file": "guide-pair-fox-duck.wav",
+      "seconds": 9.36,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-pair-fox-bear": {
+      "fingerprint": "0f6658401e8407ca9c0b02d04ac26e537e718b89709d653c953ee033005fcddf",
+      "text": "闪闪清理弯路上的怪物，布布带着食材跟上。两人都找出重复的路线，到终点做一碗热汤。",
+      "file": "guide-pair-fox-bear.wav",
+      "seconds": 8.72,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "guide-pair-kitchen-bridge": {
+      "fingerprint": "31f642b39df7370365521cf51b6652d13466210d5246f28709fce615a8aefd64",
+      "text": "布布先向下做汤，点点在厨房取汤，再观察移动的小车。路通了才向下送餐。",
+      "file": "guide-pair-kitchen-bridge.wav",
+      "seconds": 8.96,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "action-attack": {
+      "fingerprint": "c3d184d10938bbadfe5e9439a7020639c91fc96dbc99cdbec733e9fe9ed99b77",
+      "text": "怪物消灭啦！",
+      "file": "action-attack.wav",
+      "seconds": 1.2,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "action-deliver-carrot": {
+      "fingerprint": "820bb66fc8647559a464b3197ada7499fbcb32b2181a3e34e1bca557924b0175",
+      "text": "萝卜送到啦！",
+      "file": "action-deliver-carrot.wav",
+      "seconds": 1.12,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "action-try-repeat": {
+      "fingerprint": "7c2390b96bffd318248df843df3222643f579b14c1d60fc395c1528507586ec9",
+      "text": "试试重复指令吧！",
+      "file": "action-try-repeat.wav",
+      "seconds": 1.44,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "action-try-if": {
+      "fingerprint": "b399398f89ca384579dfae68068071ac509d2b4ff3286489182f8efb30b39501",
+      "text": "先用如果判断吧！",
+      "file": "action-try-if.wav",
+      "seconds": 1.44,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    },
+    "action-try-limit": {
+      "fingerprint": "55d9430d85826c3c8edfe671fca61d09d73a4d075d58a9d63bc0ebfd4e3e565e",
+      "text": "把程序变短一点吧！",
+      "file": "action-try-limit.wav",
+      "seconds": 1.68,
+      "sampleRate": 24000,
+      "speaker": "Vivian",
+      "syntheticVoice": true
+    }
+  }
+}
