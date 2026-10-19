@@ -46,3 +46,6 @@ Thumbs.db
 **/audio/readings/
 **/audio/phonetic-source/
 **/data/upstream/
+
+# Local migration archives and private working materials
+**/.local/
