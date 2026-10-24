@@ -49,3 +49,6 @@ Thumbs.db
 
 # Local migration archives and private working materials
 **/.local/
+
+# Private local reader project: source, books, notes and portable builds
+/图书阅读器/

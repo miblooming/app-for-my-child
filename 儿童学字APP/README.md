@@ -2,14 +2,15 @@
 
 用于练习认字：把 2,500 个常用汉字做成可标记、可听读、可反复复习的字卡，帮助孩子逐步积累认识的汉字。
 
-当前版本：1.3.1。Android WebView 宿主加本地 HTML / CSS / JavaScript，最低支持 Android 6.0（API 23），建议使用较新的 Android System WebView。完全离线，无需注册和网络权限。
+当前版本：1.4.0。Android WebView 宿主加本地 HTML / CSS / JavaScript，最低支持 Android 6.0（API 23），建议使用较新的 Android System WebView。完全离线，无需注册和网络权限。
 
-安装包下载：[GitHub Release · 字芽识字 v1.3.1](https://github.com/miblooming/app-for-my-child/releases/tag/ziya-v1.3.1)。在 Assets 中下载 `ZiyaKids-v1.3.1.apk`，手机打开安装；同页提供 SHA-256 校验文件。更新前建议先导出识字记录备份。
+本机最新版位于 `交付文件/字芽识字-v1.4.0.apk`，可覆盖安装并保留记录。此前公开发布版本：[GitHub Release · 字芽识字 v1.3.1](https://github.com/miblooming/app-for-my-child/releases/tag/ziya-v1.3.1)。在 Assets 中下载 `ZiyaKids-v1.3.1.apk`，手机打开安装；同页提供 SHA-256 校验文件。更新前建议先导出识字记录备份。
 
 ## 主要功能
 
 - **识字测试**：轻点汉字标记本轮认识，再点撤销；同字同轮只累计一次。支持新一轮、重置本轮、认识 / 待认识筛选和汉字 / 拼音搜索。
-- **识字记录**：跨轮累计认识次数，热力图显示熟悉程度，可按次数隐藏已熟悉的字。
+- **测试发音**：搜索框旁的“发音”开关默认关闭；开启后标记认识立即播放该字的读字、读词教学音，撤销不播放。开关会保存到记录与备份中。
+- **识字记录**：跨轮累计认识次数，热力图显示熟悉程度，可隐藏累计认识次数大于等于 N 的字，N=1 时只保留从未认识的字。
 - **五字学习**：按笔画由少到多排列，每组 5 字；显示拼音、笔画和常用组词，点击播放“字 → 词语”。支持笔画筛选、按累计次数跳过和跳转分组。
 - **长按学字**：测试页长按汉字查看详情并听读，听读不会增加认识次数。
 - **声母、韵母**：23 个声母和 24 个韵母卡片，点击播放发音。
@@ -47,7 +48,7 @@ powershell -ExecutionPolicy Bypass -File .\build.ps1
 
 将示例路径替换为本机实际位置。脚本也支持 `ANDROID_HOME`，SDK 未配置时尝试 Windows 默认 SDK 目录；JDK 未配置时尝试 PATH 和 Android Studio 的 JBR。
 
-脚本会运行逻辑和数据测试、验证 2,547 条音频的内容哈希，再编译、打包、对齐、生成开发签名并验签。输出为 `build/ZiyaKids-v1.3.1.apk` 和 `交付文件/字芽识字-v1.3.1.apk`，均不提交到 Git。开发密钥保存在被忽略的 `signing/`，正式发布请使用自己的发布签名。构建不需要运行语音模型，也不需要安装 Python 第三方依赖。
+脚本会运行逻辑和数据测试、验证 2,547 条音频的内容哈希，再编译、打包、对齐、生成开发签名并验签。输出为 `build/ZiyaKids-v1.4.0.apk` 和 `交付文件/字芽识字-v1.4.0.apk`，均不提交到 Git。开发密钥保存在被忽略的 `signing/`，正式发布请使用自己的发布签名。验证通过后交付目录只保留最新版 APK；历史开发资料、源码压缩包与校验清单存放在 `build/Codex开发资料/`。构建不需要运行语音模型，也不需要安装 Python 第三方依赖。
 
 ## 预览和测试
 
@@ -72,7 +73,7 @@ python -m venv .venv
 .\.venv\Scripts\python.exe -X utf8 tests/ui_test.py
 ```
 
-界面测试覆盖点读中断、不误计数、记录持久化、次数筛选、分组与小屏布局。报告写入 `build/ui-test-report.json`，截图写入 `交付文件/界面预览/`。Android 的安装、文件选择器、系统栏和实际扬声器播放仍需真机验证。
+界面测试覆盖点读中断、不误计数、记录持久化、次数筛选、分组与小屏布局。报告写入 `build/ui-test-report.json`，截图写入 `build/Codex开发资料/界面预览/`。Android 的安装、文件选择器、系统栏和实际扬声器播放仍需真机验证。
 
 ## 数据和许可
 

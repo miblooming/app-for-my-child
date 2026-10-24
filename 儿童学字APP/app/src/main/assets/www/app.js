@@ -103,13 +103,19 @@
     const heat=model.options().heat;
     $('#main').innerHTML=`<section class="hero"><div class="page-intro"><div class="eyebrow">LITTLE WORDS, BIG WORLD</div><h1>小小汉字，大大世界</h1><p>点亮认识的字，看见每一次进步。</p></div><div class="sprout-illustration" aria-hidden="true"><span class="floating-letter one">日</span><span class="floating-letter two">木</span>${icon('sprout')}</div></section>
       <section class="round-card" aria-label="测试进度" id="round-card">${testStats()}</section>
-      <div class="grid-toolbar"><label class="search">${icon('search')}<input type="search" id="character-search" aria-label="搜索汉字或拼音" placeholder="找一找汉字 / 拼音" value="${esc(query)}"><button class="clear-search" id="clear-search" aria-label="清除搜索" ${query?'':'hidden'}>×</button></label><button class="heat-control" id="heat-toggle" role="switch" aria-checked="${heat}">热力图<span class="toggle"></span></button></div>
+      <div class="grid-toolbar"><label class="search">${icon('search')}<input type="search" id="character-search" aria-label="搜索汉字或拼音" placeholder="找一找汉字 / 拼音" value="${esc(query)}"><button class="clear-search" id="clear-search" aria-label="清除搜索" ${query?'':'hidden'}>×</button></label><button class="heat-control" id="test-audio-toggle" role="switch" aria-label="发音：标记认识时播放教学音" aria-checked="${model.options().testAudioEnabled}">发音<span class="toggle"></span></button><button class="heat-control" id="heat-toggle" role="switch" aria-checked="${heat}">热力图<span class="toggle"></span></button></div>
       <div class="filter-row"><div class="segments" aria-label="汉字筛选">${[['all','全部汉字'],['known','本轮认识'],['unknown','待认识']].map(([v,t])=>`<button class="filter ${filter===v?'active':''}" data-filter="${v}" aria-pressed="${filter===v}">${t}</button>`).join('')}</div><span class="grid-hint">轻点标记 · 长按学字</span></div>
-      <div class="test-options"><div class="learn-skip-control"><label><input type="checkbox" id="test-skip" ${model.options().testSkipEnabled?'checked':''}><span>隐藏认识 &gt;</span></label><input type="number" id="test-skip-count" min="0" max="10000" inputmode="numeric" value="${model.options().testSkipCount}" aria-label="隐藏累计认识超过多少次的字，最少0次"><span>次的字</span></div><span class="test-filter-summary" id="test-filter-summary" aria-live="polite"></span></div>
+      <div class="test-options"><div class="learn-skip-control"><label><input type="checkbox" id="test-skip" ${model.options().testSkipEnabled?'checked':''}><span>隐藏认识 ≥</span></label><input type="number" id="test-skip-count" min="0" max="10000" inputmode="numeric" value="${model.options().testSkipCount}" aria-label="隐藏累计认识达到多少次的字，最少0次"><span>次的字</span></div><span class="test-filter-summary" id="test-filter-summary" aria-live="polite"></span></div>
       <div class="heat-legend" id="heat-legend" ${heat?'':'hidden'}><span>累计认识</span><span>少</span>${['#fffefa','#e5edd9','#cdddb8','#abc88d','#86ad69'].map(c=>`<i style="background:${c}"></i>`).join('')}<span>多（5 次及以上）</span></div>
       <div class="characters-grid" id="character-grid" aria-label="汉字测试网格"></div><div class="load-more" id="load-more"></div><p class="grid-footnote">右下角数字为累计认识次数 · 同一轮最多记 1 次<br>记录自动保存在本机</p>`;
     $('#new-round').onclick=newRound;
     $('#reset-round').onclick=resetRound;
+    $('#test-audio-toggle').onclick=()=>{
+      const before=model.options().testAudioEnabled,enabled=!before;
+      if(!enabled)voice.stop();model.setOption('testAudioEnabled',enabled);
+      if(!persist()){model.setOption('testAudioEnabled',before);return;}
+      $('#test-audio-toggle').setAttribute('aria-checked',String(enabled));
+    };
     $('#test-skip').onchange=e=>{model.setOption('testSkipEnabled',e.target.checked);visiblePages=1;persist();renderGrid();};
     $('#test-skip-count').onchange=e=>{const n=Number(e.target.value);if(e.target.value.trim()===''||!Number.isInteger(n)||n<0||n>10000){e.target.value=model.options().testSkipCount;toast('请输入 0 到 10000 之间的整数');return;}model.setOption('testSkipCount',n);visiblePages=1;persist();renderGrid();};
     $('#character-search').oninput=e=>{query=e.target.value.trim().slice(0,40);visiblePages=1;$('#clear-search').hidden=!query;renderGrid();};
@@ -137,7 +143,9 @@
       btn.oncontextmenu=e=>{e.preventDefault();clearTimeout(pressTimer);if(!longPressed){longPressed=true;characterDetail(btn.dataset.character);}};
       btn.onclick=()=>{
         if(longPressed){longPressed=false;return;}
-        const c=btn.dataset.character, known=model.toggle(c);if(model.options().learnSkipEnabled){learning=0;model.setOption('learnGroup',0);}persist();
+        const c=btn.dataset.character, known=model.toggle(c);
+        if(model.options().testAudioEnabled){if(known)voice.play(`c${String(byChar.get(c).order).padStart(4,'0')}`);else voice.stop();}
+        if(model.options().learnSkipEnabled){learning=0;model.setOption('learnGroup',0);}persist();
         if(filter==='all'&&!model.options().testSkipEnabled) {const replacement=document.createElement('div');replacement.innerHTML=cell(byChar.get(c));btn.replaceWith(replacement.firstElementChild);bindGrid();} else renderGrid();
         refreshStats();
       };
@@ -236,7 +244,7 @@
       <button class="settings-option" id="export-records">${icon('download')}<span>导出记录备份<small>保存为 JSON 文件，换手机也能接着学</small></span>${icon('right')}</button>
       <button class="settings-option" id="import-records">${icon('upload')}<span>从备份恢复<small>导入前会显示记录信息，由你确认</small></span>${icon('right')}</button>
       <button class="settings-option" id="show-licenses">${icon('book')}<span>开源许可<small>笔画、拼音资料的来源与完整许可</small></span>${icon('right')}</button>
-      <button class="settings-option" id="show-about">${icon('info')}<span>关于字芽<small>2,500 字离线字库 · 版本 1.3.1</small></span>${icon('right')}</button>
+      <button class="settings-option" id="show-about">${icon('info')}<span>关于字芽<small>2,500 字离线字库 · 版本 1.4.0</small></span>${icon('right')}</button>
       <p class="privacy-note">不需要注册，不申请网络权限。字词朗读为 AI 合成语音。测试记录保存在这台设备中，卸载前请先导出备份。</p>`);
     $('#show-history').onclick=history;
     $('#export-records').onclick=exportRecords;
@@ -244,7 +252,7 @@
       if(window.Android){Android.importBackup();return;}
       const input=document.createElement('input');input.type='file';input.accept='.json,application/json';input.onchange=async()=>{try{if(input.files[0].size>32*1024*1024)throw new Error('备份文件不能超过 32 MB');window.onBackupImported(await input.files[0].text());}catch(e){toast(e.message);}};input.click();
     };
-    $('#show-about').onclick=()=>openModal('字芽 · 一点点长大',`<p>把纸上的识字表，变成孩子的识字小花园。</p><p style="margin-top:13px">本字库以提供的 15 页《儿童识字测试表（2500 字）》为依据提取、核对。按笔画学习时使用 Unicode Unihan 的笔画资料，拼音和词语读音由 pypinyin 生成并补充常用读音，组词优先采用儿童日常词语。</p><p style="margin-top:13px">测试：轻点认识，再点撤销；同字同轮只记一次。长按字卡可看拼音与组词。热力图按累计次数从浅到深，5 次及以上使用最深色。</p><p style="margin-top:13px">多音字请结合词语学习。声母 23 个，韵母 24 个。字词朗读由 Qwen3-TTS Serena 合成；声母、韵母发音素材来自 cmguo/PinYinSound。完整来源见项目源码中的“数据来源与许可.md”；拼音录音上游未声明许可证，不属于本项目代码的 MIT 授权范围。</p><p style="margin-top:15px;font-size:10px">字芽 v1.3.1 · 离线使用 · 无广告</p>`);
+    $('#show-about').onclick=()=>openModal('字芽 · 一点点长大',`<p>把纸上的识字表，变成孩子的识字小花园。</p><p style="margin-top:13px">本字库以提供的 15 页《儿童识字测试表（2500 字）》为依据提取、核对。按笔画学习时使用 Unicode Unihan 的笔画资料，拼音和词语读音由 pypinyin 生成并补充常用读音，组词优先采用儿童日常词语。</p><p style="margin-top:13px">测试：轻点认识，再点撤销；同字同轮只记一次。长按字卡可看拼音与组词。热力图按累计次数从浅到深，5 次及以上使用最深色。</p><p style="margin-top:13px">多音字请结合词语学习。声母 23 个，韵母 24 个。字词朗读由 Qwen3-TTS Serena 合成；声母、韵母发音素材来自 cmguo/PinYinSound。完整来源见项目源码中的“数据来源与许可.md”；拼音录音上游未声明许可证，不属于本项目代码的 MIT 授权范围。</p><p style="margin-top:15px;font-size:10px">字芽 v1.4.0 · 离线使用 · 无广告</p>`);
   }
   function history(){
     openModal('每一次进步，都记得',`<p>累计点亮 ${model.everCount()} 个字。每个字在每轮最多累计 1 次。</p>${model.rounds().slice().reverse().map(r=>`<div class="history-row"><span>第 ${r.id} 轮${r.endedAt?'':' · 进行中'}<small>${date(r.startedAt)}${r.endedAt?' — '+date(r.endedAt):' 开始'}</small></span><span><b>${r.count}</b> 字</span></div>`).join('')}`);

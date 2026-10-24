@@ -2,7 +2,7 @@ plugins { id 'com.android.application' }
 android {
     namespace 'cn.ziya.kids'
     compileSdk 35
-    defaultConfig { applicationId 'cn.ziya.kids'; minSdk 23; targetSdk 35; versionCode 5; versionName '1.3.1' }
+    defaultConfig { applicationId 'cn.ziya.kids'; minSdk 23; targetSdk 35; versionCode 6; versionName '1.4.0' }
     compileOptions { sourceCompatibility JavaVersion.VERSION_1_8; targetCompatibility JavaVersion.VERSION_1_8 }
     androidResources { noCompress += ['mp3'] }
 }

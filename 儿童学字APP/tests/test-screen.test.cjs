@@ -12,16 +12,17 @@ test('reset cancels all current selections once while preserving history and rou
  s.toggle('二');const restored=create(s.snapshot(),chars);assert.equal(restored.count('二'),1);assert.equal(restored.count('一'),1);
 });
 
-test('test filter hides strictly greater counts and permits zero threshold',()=>{
+test('test filter hides counts at or above threshold including exact boundary',()=>{
  const s=create(null,chars);s.toggle('一');s.toggle('二');s.nextRound();s.toggle('一');s.setOption('testSkipEnabled',true);
- assert.deepEqual(s.testList(data).map(d=>d.char),['二','三']);
- s.setOption('testSkipCount',2);assert.deepEqual(s.testList(data),data);
- s.setOption('testSkipCount',0);assert.deepEqual(s.testList(data).map(d=>d.char),['三']);
+ assert.deepEqual(s.testList(data).map(d=>d.char),['三']);
+ s.setOption('testSkipCount',2);assert.deepEqual(s.testList(data).map(d=>d.char),['二','三']);
+ s.setOption('testSkipCount',3);assert.deepEqual(s.testList(data),data);
+ s.setOption('testSkipCount',0);assert.deepEqual(s.testList(data),[]);
  s.setOption('testSkipEnabled',false);assert.deepEqual(s.testList(data),data);
 });
 
 test('crossing the threshold hides a character and reset restores eligible characters',()=>{
- const s=create(null,chars);s.setOption('testSkipEnabled',true);s.setOption('testSkipCount',0);s.toggle('一');s.toggle('二');
+ const s=create(null,chars);s.setOption('testSkipEnabled',true);s.setOption('testSkipCount',1);s.toggle('一');s.toggle('二');
  assert.deepEqual(s.testList(data).map(d=>d.char),['三']);s.resetCurrent();assert.deepEqual(s.testList(data),data);
  assert.equal(create(s.snapshot(),chars).knownCount(),0);
 });
@@ -36,4 +37,21 @@ test('older backups default to no test filtering, new preferences survive restor
 test('test filter rejects invalid thresholds and sanitizes malformed backup preferences',()=>{
  const s=create(null,chars);for(const n of [-1,.5,NaN,Infinity,10001])assert.throws(()=>s.setOption('testSkipCount',n));
  const bad=s.snapshot();bad.options.testSkipCount=-1;assert.equal(create(bad,chars).options().testSkipCount,1);
+});
+
+test('test pronunciation defaults off in fresh state and older backups',()=>{
+ const s=create(null,chars);assert.equal(s.options().testAudioEnabled,false);s.toggle('一');
+ const old=s.snapshot();delete old.options.testAudioEnabled;
+ const restored=create(old,chars);assert.equal(restored.options().testAudioEnabled,false);assert.equal(restored.count('一'),1);
+});
+
+test('pronunciation switch survives backup restore and new rounds independently of counts',()=>{
+ const s=create(null,chars);s.toggle('一');s.setOption('testAudioEnabled',true);
+ const restored=create(s.snapshot(),chars);assert.equal(restored.options().testAudioEnabled,true);assert.equal(restored.count('一'),1);
+ restored.nextRound();assert.equal(restored.options().testAudioEnabled,true);assert.equal(restored.count('一'),1);
+ restored.setOption('testAudioEnabled',false);assert.equal(create(restored.snapshot(),chars).options().testAudioEnabled,false);
+});
+
+test('malformed pronunciation values cannot accidentally enable audio on restore',()=>{
+ for(const value of ['true','false',1,null]){const saved=create(null,chars).snapshot();saved.options.testAudioEnabled=value;assert.equal(create(saved,chars).options().testAudioEnabled,false);}
 });
